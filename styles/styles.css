@@ -1,0 +1,165 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Questrial', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    max-width: 980px;
+}
+
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+
+body{
+    width: 980px;
+    background-image: url('../images/background.jpg');
+    background-color: #DCF4D6;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-titulo{
+    width: 980px;
+    background-color: #bfedb4d5;;
+    display: flex;
+    justify-content: center;
+    opacity: 75%;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.contenedor-galeria{
+    background-color: #bfedb4d5;;
+    width: 425px;
+    height: 480px;
+    margin: 50px 0 30px 50px;
+}
+
+.parrafo{
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    color: black;
+    padding: 25px;
+    position: relative;
+    bottom: 8px;
+    text-align: center;
+}
+
+.galeria{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.imagenes{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+
+.contenedor-formulario{
+    background-color: #bfedb4d5;
+    width: 425px;
+    margin: -510px 0 30px 500px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+}
+input{
+    max-width: 200px;
+    height: 20px;
+    border: 1px dotted #999;
+    position: relative;
+    bottom: 3px;
+}
+
+.parrafo-form{
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    color: black;
+    padding: 25px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    
+}
+
+.cbox{
+    font-family: 'Questrial', sans-serif;
+    font-size: 13px;
+    color: black;
+    margin-left: -10px;
+}
+
+.check{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+button{
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 130px;
+    bottom: -20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: -25px;
+}
+
+a:active{
+    color: black;
+}
+
+i{
+    font-size: 25px;
+    color: black;
+}
+
+.fa-instagram{
+    position: relative;
+    left: 170px;
+}
+
+.fa-facebook{
+    position: relative;
+    left: 230px;
+    bottom: 26px;
+}
